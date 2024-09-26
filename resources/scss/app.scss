@@ -1,1 +1,48 @@
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
+
+.ticket {
+    background-color: #f8f9fa;
+    border: 2px solid #dee2e6;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.ticket-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.ticket-body {
+    margin-top: 20px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.info-label {
+    font-weight: bold;
+}
+
+.status {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #28a745;
+}
+
+.status.cancelled {
+    color: #dc3545;
+}
+
+.divider {
+    height: 1px;
+    background-color: #dee2e6;
+    margin: 10px 0;
+}

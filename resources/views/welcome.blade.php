@@ -25,6 +25,10 @@
                         <span class="info-label">Codice Treno:</span>
                         <span>{{ $train->codice_treno }}</span>
                     </div>
+                    <div class="info-row">
+                        <span class="info-label">Giorno della partenza:</span>
+                        <span>{{ $train->giorno_partenza }}</span>
+                    </div>
                     <div class="divider"></div>
                     <div class="info-row">
                         <span class="info-label">Stazione di Partenza:</span>
